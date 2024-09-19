@@ -19,7 +19,7 @@ int main(int argc, char *argv[]){
 
   if(argc < 3)
   {
-    printf("Too few arguments provided!");
+    printf("-ERROR-\n");
     return 1;
   }
     
@@ -33,7 +33,7 @@ int main(int argc, char *argv[]){
     printf("%d", diff);
   }
   else
-  printf("NOT INTEGERS!");
+  printf("-ERROR-\n");
 
   return 0;
 }

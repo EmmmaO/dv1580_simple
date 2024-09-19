@@ -21,7 +21,7 @@ int main(int argc, char *argv[]){
 
 if (argc < 3) {
         // Check if there are enough arguments
-        printf("Not enough arguments");
+        printf("-ERROR-\n");
         return 1;
     }
 if (is_int(argv[1]) && is_int(argv[2]))
@@ -33,7 +33,7 @@ if (is_int(argv[1]) && is_int(argv[2]))
     printf("%d", sum);
 }
 else
-    printf("Arguments should only be integers!");
+    printf("-ERROR-\n");
     
     return 0;
 }

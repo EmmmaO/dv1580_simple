@@ -6,14 +6,14 @@ int main(int argc, char *argv[]){
 
 if (argc < 3)
 {
-  printf("Not enough arguments!");
+  printf("-ERROR-\n");
   return 1;
 }
 
 int check = atoi(argv[2]);
 if (check == 0)
 {
-  printf("DIVISION BY 0 ILLEGAL!!!");
+  printf("DIV ZERO NOT ALLOWED!\n");
   return -1;
 }
 
@@ -27,7 +27,7 @@ if(isdigit(*argv[1]) && isdigit(*argv[2]))
   
 
 else
-printf("Must be real numbers!");
+printf("-ERROR-\n");
 
   return 0;
 }

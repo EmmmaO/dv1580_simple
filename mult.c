@@ -5,7 +5,7 @@
 int main(int argc, char *argv[]){
   if (argc < 3)
   {
-    printf("Too few arguments!");
+    printf("-ERROR-\n");
     return 1;
   }
   
@@ -21,6 +21,6 @@ int main(int argc, char *argv[]){
       printf("%f", prod);
     }
     else
-      printf("Numbers must be real!");
+      printf("-ERROR-\n");
   return 0;
 }
